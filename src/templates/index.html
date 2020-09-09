@@ -5,11 +5,27 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      description="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
+    <meta name="description" content="A task management dashboard" />
     <title>Project Manager</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <main class="main-content">
+      <div class="dashboard">
+        <button aria-label="Menu Button" class="menu-button">
+          <img src="./menu.svg" alt="Menu icon" />
+        </button>
+        <div>
+          <h1>Hi Samantha</h1>
+          <p>Welcome back to the workspace, we missed You!</p>
+          <form>
+            <input type="search" placeholder="Search Task or Project" />
+          </form>
+        </div>
+        <div class="projects"></div>
+      </div>
+      <div class="project-detail"></div>
+    </main>
   </body>
 </html>
