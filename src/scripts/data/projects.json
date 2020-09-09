@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "name": "Green House",
+      "todos": []
+    },
+    {
+      "name": "Cyber Punk",
+      "todos": [
+        {
+          "checked": true,
+          "content": "Create initial layout for homepage",
+          "status": "Approved"
+        },
+        {
+          "checked": true,
+          "content": "Fixing icons with transparent background",
+          "status": "In Progress"
+        },
+        {
+          "checked": true,
+          "content": "Fixing icons with transparent background",
+          "status": "In Progress"
+        },
+        {
+          "checked": true,
+          "content": "Create initial layout for homepage",
+          "status": "In Progress"
+        },
+        {
+          "checked": false,
+          "content": "Discussions regarding workflow improvement",
+          "status": "In Review"
+        },
+        {
+          "checked": false,
+          "content": "Create quotation for app redesign project",
+          "status": "Waiting"
+        }
+      ]
+    },
+    {
+      "name": "Easy Crypto",
+      "todos": []
+    },
+    {
+      "name": "Travel App",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "todos": []
+    }
+  ]
+}
