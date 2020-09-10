@@ -26,7 +26,7 @@ class ProjectDetail extends HTMLElement {
 
     this._project.people.forEach((people) => {
       const peoplePhoto = document.createElement('img');
-      peoplePhoto.src = `./${people.photo || ''}`;
+      peoplePhoto.src = `./images/${people.photo || ''}`;
       peoplePhoto.alt = 'Project Member';
 
       projectPeople.appendChild(peoplePhoto);

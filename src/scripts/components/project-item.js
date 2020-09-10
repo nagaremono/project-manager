@@ -11,7 +11,7 @@ class ProjectItem extends HTMLElement {
 
     this.innerHTML = `
       <button aria-label="Select Project">
-        <img src=${this._project.icon || null} alt="Project Icon" />
+        <img src="./images/${this._project.icon || null}" alt="Project Icon" />
         <span>${projectNameAbbr}</span>
       </button>
       <span>${this._project.name}</span>

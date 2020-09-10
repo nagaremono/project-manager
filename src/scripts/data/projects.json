@@ -2,10 +2,26 @@
   "projects": [
     {
       "name": "Green House",
+      "icon": "greenhouse.png",
       "todos": []
     },
     {
       "name": "Cyber Punk",
+      "icon": "cyberpunk.png",
+      "people": [
+        {
+          "name": "anastasiya",
+          "photo": "anastasiya.jpg"
+        },
+        {
+          "name": "joseph",
+          "photo": "joseph.jpg"
+        },
+        {
+          "name": "seyrek",
+          "photo": "seyrek.jpg"
+        }
+      ],
       "todos": [
         {
           "checked": true,
@@ -41,14 +57,57 @@
     },
     {
       "name": "Easy Crypto",
+      "icon": "easycrypto.png",
       "todos": []
     },
     {
       "name": "Travel App",
+      "icon": "travelapp.png",
       "todos": []
     },
     {
       "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
+      "todos": []
+    },
+    {
+      "name": "Landing Page",
+      "icon": "landingpage.png",
       "todos": []
     }
   ]
