@@ -1,8 +1,1 @@
-export default {
-  status: {
-    approved: 'Approved',
-    inProgress: 'In Progress',
-    inReview: 'In Review',
-    waiting: 'Waiting',
-  },
-};
+export default ['Approved', 'In Progress', 'In Review', 'Waiting'];
