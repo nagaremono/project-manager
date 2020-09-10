@@ -2,7 +2,7 @@
   background-color: #fff;
   position: relative;
 
-  button {
+  .add-todo {
     border: none;
     color: #fff;
     font-size: 3rem;
@@ -32,6 +32,7 @@
     color: #51535d;
     font-weight: 700;
     font-size: 2.5rem;
+    margin-bottom: 10px;
   }
 
   p {

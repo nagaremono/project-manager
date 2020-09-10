@@ -12,7 +12,7 @@ class ProjectDetail extends HTMLElement {
     this.innerHTML = `
       <div class="project-info">
         <div>
-          <h2>${this._project.name}<h2>
+          <h2>${this._project.name}</h2>
           <p>${this._project.description || null}</p>
         </div>
         <div class="project-people"></div>
@@ -37,6 +37,7 @@ class ProjectDetail extends HTMLElement {
     this.appendChild(projectToDos);
 
     const addToDoButton = document.createElement('button');
+    addToDoButton.classList.add('add-todo');
     addToDoButton.textContent = '+';
     this.appendChild(addToDoButton);
   }

@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+
+    .greeting {
+      width: 90%;
+      margin: 50px auto 40px;
+    }
+
+    .projects-grid {
+      width: 90%;
+      column-gap: 1rem;
+      row-gap: 3rem;
+
+      button:last-child {
+        padding: 1rem;
+      }
+    }
+
+    .project-info {
+      width: 90%;
+      height: 200px;
+      margin: 30px auto;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+
+      div:first-child {
+        width: 90%;
+      }
+    }
+  }
+
+  .project-todos {
+    width: 80%;
+    margin: 0 auto 75px;
+
+    label {
+      width: 60%;
+    }
+
+    .Approved,
+    .Waiting,
+    .In-Review,
+    .In-Progress {
+      width: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dashboard {
+    .greeting {
+      width: 80%;
+    }
+
+    .projects-grid {
+      width: 80%;
+    }
+  }
+
+  .project-info {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px auto;
+
+    div:first-child {
+      width: 80%;
+    }
+  }
+
+  .project-todos {
+    label {
+      width: 55%;
+    }
+
+    .Approved,
+    .Waiting,
+    .In-Review,
+    .In-Progress {
+      width: 35%;
+    }
+  }
+}
