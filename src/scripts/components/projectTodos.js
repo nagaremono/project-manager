@@ -1,3 +1,5 @@
+import './project-todo';
+
 class ProjectToDos extends HTMLElement {
   set toDos(toDos) {
     this._toDos = toDos;
@@ -14,17 +16,8 @@ class ProjectToDos extends HTMLElement {
     const toDoList = document.createElement('ul');
 
     this._toDos.forEach((todo) => {
-      const toDoItem = document.createElement('li');
-
-      const checked = todo.checked ? 'checked' : '';
-
-      const statusClass = todo.status.replace(' ', '-');
-
-      toDoItem.innerHTML = `
-        <input type="checkbox" ${checked}/>
-        <label>${todo.content}</label>
-        <span class=${statusClass}>${todo.status}</span>
-      `;
+      const toDoItem = document.createElement('project-todo');
+      toDoItem.todo = todo;
 
       toDoList.appendChild(toDoItem);
     });
