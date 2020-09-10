@@ -1,4 +1,15 @@
+/* Colors */
 $body-color: #e0e2ee;
 $dashboard-bg: #252a40;
 $add-button-color: #894cc5;
 $more-button-color: #3a3f53;
+$menu-button-color: #393e52;
+$greet-heading-color: #f6f5f8;
+$greet-text-color: #8a8b9d;
+$search-bg: #3a3f53;
+$button-highlight: #4493a0;
+
+@mixin button-highlight {
+  border: 2px solid $button-highlight;
+  border-radius: 15px;
+}
