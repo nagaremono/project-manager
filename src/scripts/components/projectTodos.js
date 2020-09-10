@@ -18,10 +18,12 @@ class ProjectToDos extends HTMLElement {
 
       const checked = todo.checked ? 'checked' : '';
 
+      const statusClass = todo.status.replace(' ', '-');
+
       toDoItem.innerHTML = `
         <input type="checkbox" ${checked}/>
         <label>${todo.content}</label>
-        <span>${todo.status}</span>
+        <span class=${statusClass}>${todo.status}</span>
       `;
 
       toDoList.appendChild(toDoItem);

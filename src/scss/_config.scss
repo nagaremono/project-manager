@@ -2,14 +2,31 @@
 $body-color: #e0e2ee;
 $dashboard-bg: #252a40;
 $add-button-color: #894cc5;
-$more-button-color: #3a3f53;
-$menu-button-color: #393e52;
+$primary-button-color: #3a3f53;
 $greet-heading-color: #f6f5f8;
 $greet-text-color: #8a8b9d;
 $search-bg: #3a3f53;
 $button-highlight: #4493a0;
+$todo-item-color: #858586;
+$checked-color: #3bd5d8;
+$approved-color: #4fa4a7;
+$inprogress-color: #1059a1;
+$inreview-color: #bd4613;
+$waiting-color: #757575;
+$add-button-color: #874dc6;
 
 @mixin button-highlight {
   border: 2px solid $button-highlight;
+  border-radius: 15px;
+}
+
+@mixin status($color) {
+  width: 20%;
+  max-width: 100px;
+  padding: 5px 0;
+  display: inline-block;
+  text-align: center;
+  background-color: lighten($color, 45);
+  color: $color;
   border-radius: 15px;
 }

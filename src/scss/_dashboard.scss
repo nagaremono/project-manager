@@ -9,8 +9,8 @@
 
   .menu-button {
     border: none;
-    background-color: $menu-button-color;
-    color: $menu-button-color;
+    background-color: $primary-button-color;
+    color: $primary-button-color;
     width: 30px;
     height: 30px;
     margin: 5px;
@@ -82,7 +82,7 @@
     padding: 3rem 0;
     align-self: center;
     justify-self: center;
-    background-color: $more-button-color;
+    background-color: $primary-button-color;
     border: none;
     font-size: 2rem;
     font-weight: 700;

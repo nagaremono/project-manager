@@ -1,0 +1,104 @@
+.project-detail {
+  background-color: #fff;
+  position: relative;
+
+  button {
+    border: none;
+    color: #fff;
+    font-size: 3rem;
+    background-color: $add-button-color;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    box-shadow: 0px 15px 50px -5px rgb(135, 77, 198);
+  }
+}
+
+.project-info {
+  width: 75%;
+  margin: 55px auto 50px;
+  display: flex;
+  justify-content: space-between;
+
+  div:first-child {
+    width: 70%;
+  }
+
+  h2 {
+    color: #51535d;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #b3b3b4;
+  }
+
+  button,
+  .project-people img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #cecbcb;
+  }
+
+  button {
+    background-color: transparent;
+  }
+}
+
+.project-todos {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+
+  h3 {
+    font-size: 1.5rem;
+    color: #5e5c66;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 25px 0;
+  }
+
+  li {
+    color: $todo-item-color;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  label {
+    width: 70%;
+  }
+
+  span {
+    width: max-content;
+  }
+
+  .Approved {
+    @include status($approved-color);
+  }
+
+  .In-Progress {
+    @include status($inprogress-color);
+  }
+
+  .In-Review {
+    @include status($inreview-color);
+  }
+
+  .Waiting {
+    @include status($waiting-color);
+  }
+}
