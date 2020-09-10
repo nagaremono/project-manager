@@ -8,6 +8,7 @@ class ProjectItem extends HTMLElement {
     const splittedProjectName = this._project.name.split(' ');
     const projectNameAbbr =
       splittedProjectName[0][0] + splittedProjectName[1][0];
+
     this.innerHTML = `
       <button aria-label="Select Project">
         <img src=${this._project.icon || null} alt="Project Icon" />
